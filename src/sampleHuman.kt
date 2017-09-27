@@ -9,7 +9,7 @@ fun main(args: Array<String>){
     futa.weight = 60
 
     // 情報をプリント
-    futa.printInfo()
+    print(message = futa.info)
 
     println()
 
@@ -20,5 +20,5 @@ fun main(args: Array<String>){
     yamiji.height = 180
     yamiji.weight = 75
 
-    print(yamiji.info)
+    print(message = yamiji.info)
 }

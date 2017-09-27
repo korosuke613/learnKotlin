@@ -9,11 +9,5 @@ abstract class Creature {
         get() = "type: ${this.type}\n" +
                 "family: ${this.family}\n" +
                 "name: ${this.name}\n"
-
-    open fun printInfo(){
-    print( "type: ${this.type}\n" +
-            "family: ${this.family}\n" +
-            "name: ${this.name}\n")
-}
 }
 

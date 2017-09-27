@@ -11,10 +11,4 @@ class Human(override val name: String) : Mammalian(){
         }
     var height: Any? = null
     var weight: Any? = null
-
-    override fun printInfo() {
-        super.printInfo()
-        print("height: ${this.height}\n" +
-                "weight: ${this.weight}\n")
-    }
 }
