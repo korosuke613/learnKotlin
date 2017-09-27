@@ -18,11 +18,7 @@ fun humanTest1(){
 @Test
 fun humanTest2(){
     // 人間クラスのヒラコバインスタンスを作成
-    val yamiji = Human("YAMIJI")
-
-    // 身長、体重の登録
-    yamiji.height = 180
-    yamiji.weight = 75
+    val yamiji = Human("YAMIJI", 180, 75)
 
     assertEquals(yamiji.info.length > 40, true)
 }
