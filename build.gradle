@@ -34,7 +34,7 @@ compileTestKotlin {
 }
 
 apply plugin: 'application'
-mainClassName='Viewkt'
+mainClassName='MainKt'
 
 
 apply plugin: "jacoco"
@@ -45,4 +45,12 @@ jacocoTestReport {
         csv.enabled = false
         html.enabled = true
     }
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Mychael Style Tools', 'Implementation-Version': 1.0
+        attributes "Main-Class" : "MainKt"
+    }
+    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
 }
