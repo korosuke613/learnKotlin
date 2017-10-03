@@ -12,6 +12,9 @@ coverage:
     patch: yes
     changes: no
 
+  ignore:
+    - "sample*.kt"
+
 parsers:
   gcov:
     branch_detection:
@@ -25,5 +28,3 @@ comment:
   behavior: default
   require_changes: no
 
-ignore:
-  - "sample*.kt"
