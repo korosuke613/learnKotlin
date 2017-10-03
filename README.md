@@ -1,8 +1,5 @@
 # learnKotlin
 
-Kotlinの勉強をするためのリポジトリ
+[![Build Status](https://travis-ci.org/korosuke613/learnKotlin.svg?branch=master)](https://travis-ci.org/korosuke613/learnKotlin) [![codecov](https://codecov.io/gh/korosuke613/learnKotlin/branch/master/graph/badge.svg)](https://codecov.io/gh/korosuke613/learnKotlin)
 
-
-|ディレクトリ名|内容|備考|
-|:--|:--|:--|
-|[01_class](https://github.com/korosuke613/learnKotlin/tree/master/01_class)|クラスを用いて生き物をプログラムで実装する||
+Kotlinの勉強をするためのリポジトリちゃっかりCIを使ってる
