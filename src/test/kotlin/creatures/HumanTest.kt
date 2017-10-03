@@ -1,3 +1,5 @@
+package creatures
+
 import creatures.mammalian.Human
 import org.junit.Assert.assertEquals
 import org.junit.Test
