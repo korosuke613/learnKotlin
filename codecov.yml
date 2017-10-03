@@ -13,7 +13,7 @@ coverage:
     changes: no
 
   ignore:
-    - "sample*.kt"
+    - "src/main/kotlin/example/*"
 
 parsers:
   gcov:

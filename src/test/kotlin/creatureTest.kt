@@ -1,7 +1,6 @@
-import org.junit.Test
-import org.junit.Assert.assertEquals
-
 import creatures.mammalian.Human
+import org.junit.Assert.assertEquals
+import org.junit.Test
 
 class HumanTest {
     @Test
